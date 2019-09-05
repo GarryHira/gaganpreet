@@ -1,29 +1,27 @@
 .chat-app {
     max-width: 450px;
-    border: 1px solid #ccc;
-    box-shadow: 5px 5px 5px #ccc;
-    margin: 5% auto;
+    border: 1px solid rgb(199, 37, 37);
+    box-shadow: 5px 5px 5px rgb(228, 141, 141);
+    margin: 55% auto;
 }
 
 .chat-header {
     padding: 10px;
-    color: #fff;
-    background: #393967;
+    color: rgb(64, 150, 71);
+    background: #c1c1c9;
     font-size: 20px;
-    font-weight: bold;
+    
 }
 
 .chat-body {
     padding: 30px;
-    background: #fbfbfb;
+
 }
 
 .chat-window {
     width: 100%;
     height: 350px;
-    border: 1px solid #eee;
-    background: #fff;
-    border-radius: 5px;
+    border: 1px solid rgb(120, 117, 141)
 }
 
 .chat-footer {
@@ -32,7 +30,7 @@
 
 input { 
     padding: 5px;
-    border: 1px solid #eee;
+    border: 1px solid rgb(173, 103, 130);
     border-radius: 5px;
     max-width: 83%;
 }
@@ -40,26 +38,26 @@ input {
 button {
     padding: 5px 10px;
     position: relative;
-    float: right;
-    background: #393967;
+    float: center;
+    background: #36363b;
     border-color: #393967;
 }
 
 .sender-side {
     text-align: right;
-    padding: 2px 0;
+
 }
 
 .sender-side span {
     padding: 0px 12px;
-    border: 1px solid #20bb20;
+    border: 1px solid #807e88;
     border-radius: 5px;
-    border-bottom-right-radius: 0;
+
     margin: 0 10px;
     color: #fff;
-    background: #20bb20;
+    background: #7b807b;
     display: inline-block;
-    max-width: 80%;
+    max-width: 100%;
 }
 
 .reciever-side {
