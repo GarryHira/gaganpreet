@@ -1,8 +1,14 @@
 nav {
     padding: 10px 0;
-    background: #3a0bbb;
+    background:#02102c;
 }
 
 .nav-right-pannel {
+    text-align: right;
+}
+
+.h {
+  
+    color: aliceblue;
     text-align: center;
 }
